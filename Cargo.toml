@@ -1,0 +1,11 @@
+[package]
+description = "A Rust interface for PTP (Precision Time Protocol) hardware clocks"
+edition = "2021"
+homepage = "https://github.com/paulgear/ptp-time"
+license = "Apache-2.0"
+name = "ptp-time"
+repository = "https://github.com/paulgear/ptp-time"
+version = "0.1.0"
+
+[dependencies]
+libc = "0.2.174"
