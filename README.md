@@ -5,6 +5,17 @@ A Rust interface to the Linux kernel PTP devices.
 ## Copyright
 
 Copyright (c) 2025 Paul D. Gear
+Copyright (c) 2022-2024 Trifecta Tech Foundation, Tweede Golf, and Contributors
+
+This crate is a mechanical application of the technique used by
+[pps-time](https://github.com/pendulum-project/pps-time) to the Linux PPS
+driver, part of [Project Pendulum](https://github.com/pendulum-project), and
+thus should be considered a derived work of that crate.
+
+The following sources were also consulted:
+
+- [Introduction to PTP on Linux - APIs, by Maciek Machnikowski, netDev 0x18](https://netdevconf.info/0x18/docs/netdev-0x18-paper39-talk-slides/netdev-intro-ptp-api.pdf)
+- [Chrony](https://gitlab.com/chrony/chrony), particularly the files `refclock_phc.c` and `sys_linux.c`.
 
 ## License
 
