@@ -4,8 +4,8 @@ A Rust interface to the Linux kernel PTP devices.
 
 ## Copyright
 
-Copyright (c) 2025 Paul D. Gear
-Copyright (c) 2022-2024 Trifecta Tech Foundation, Tweede Golf, and Contributors
+- Copyright (c) 2025 Paul D. Gear
+- Copyright (c) 2022-2024 Trifecta Tech Foundation, Tweede Golf, and Contributors
 
 This crate is a mechanical application of the technique used by
 [pps-time](https://github.com/pendulum-project/pps-time) to the Linux PPS
